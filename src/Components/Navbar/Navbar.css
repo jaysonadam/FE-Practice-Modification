@@ -4,6 +4,10 @@
 
 .nav-link {
   position: relative;
+
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-inline: 10px;
 }
 
 .nav-link::after {
@@ -12,12 +16,18 @@
   background-color: orangered;
   transition: 0..3s ease-in-out;
 
-  height: 2px;
+  height: 2.5px;
   width: 0;
   left: 0;
-  bottom: -10px;
+  bottom: -12.5px;
 }
 
 .nav-link.active::after {
   width: 100%;
+}
+
+@media (max-width: 750px) {
+  .nav-link.active::after {
+    width: 0;
+  }
 }
