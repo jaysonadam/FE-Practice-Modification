@@ -1,29 +1,24 @@
-import React, { useState, useEffect } from 'react';
-import { NavLink } from 'react-router-dom';
+import React from 'react';
+import { useLocation } from "react-router-dom";
 
 import './Navbar.css';
 import { Nav, Navbar } from "react-bootstrap";
 
 function Navigation() {
+    const location = useLocation();
 
     return (
         <div>
-            {/* <Navbar> */}
-                {/* <Nav> */}
-                    <NavLink to='/' activeStyle={{
-                        fontWeight: "bold",
-                        color: "red"
-                    }}>
+            <Navbar bg="dark" variant="dark">
+                <Nav activeKey={location.pathname}>
+                    <Nav.Link href='/'>
                         Home
-                    </NavLink>
-                    <NavLink to='/products' activeStyle={{
-                        fontWeight: "bold",
-                        color: "red"
-                    }}>
+                    </Nav.Link>
+                    <Nav.Link href='/products'>
                         Products
-                    </NavLink>
-                {/* </Nav> */}
-            {/* </Navbar> */}
+                    </Nav.Link>
+                </Nav>
+            </Navbar>
         </div>
     )
 
