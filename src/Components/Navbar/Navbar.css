@@ -13,7 +13,7 @@
 .nav-link::after {
   content: '';
   position: absolute;
-  background-color: orangered;
+  background-color: #FF6600;
   transition: 0..3s ease-in-out;
 
   height: 2.5px;

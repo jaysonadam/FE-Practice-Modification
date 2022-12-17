@@ -2,7 +2,7 @@ import React from 'react';
 import { useLocation } from "react-router-dom";
 
 import './Navbar.css';
-import { Nav, Navbar, Container } from "react-bootstrap";
+import { Nav, Navbar, Container, NavDropdown } from "react-bootstrap";
 
 function Navigation() {
     const location = useLocation();
@@ -18,7 +18,7 @@ function Navigation() {
                                 Home
                             </Nav.Link>
                             <Nav.Link href='/products'>
-                                Products
+                                Bike Catalogue
                             </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
