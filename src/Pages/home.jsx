@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import KTMINTRO from '../Images-Videos/videos/KTMINTRO.mp4';
 
 function Home() {
   return (
-    <div>Home</div>
+    <div>
+      <video width='100%' height='70%' src={KTMINTRO} autoPlay loop />
+    </div>
   )
 }
 

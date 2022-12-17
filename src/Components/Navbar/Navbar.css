@@ -19,7 +19,7 @@
   height: 2.5px;
   width: 0;
   left: 0;
-  bottom: -12.5px;
+  bottom: -13px;
 }
 
 .nav-link.active::after {

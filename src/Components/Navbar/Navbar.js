@@ -9,7 +9,7 @@ function Navigation() {
 
     return (
         <div>
-            <Navbar expand="md" bg="dark" variant="dark" >
+            <Navbar expand="md" bg="black" variant="dark">
                 <Container style={{ marginInline: '0px' }}>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
