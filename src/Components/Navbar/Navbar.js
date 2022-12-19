@@ -2,7 +2,7 @@ import React from 'react';
 import { useLocation } from "react-router-dom";
 
 import './Navbar.css';
-import { Nav, Navbar, Container, NavDropdown } from "react-bootstrap";
+import { Nav, Navbar, Container } from "react-bootstrap";
 
 function Navigation() {
     const location = useLocation();
@@ -10,7 +10,7 @@ function Navigation() {
     return (
         <div>
             <Navbar expand="md" bg="black" variant="dark">
-                <Container style={{ marginInline: '0px' }}>
+                <Container className='con'>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav activeKey={location.pathname}>
@@ -21,6 +21,9 @@ function Navigation() {
                                 Bike Catalogue
                             </Nav.Link>
                         </Nav>
+                        <Navbar.Collapse className="justify-content-end">
+                            <img src={require('../../Images-Videos/images/ktm-logo.jpg')} className='ktm'/>
+                        </Navbar.Collapse>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>

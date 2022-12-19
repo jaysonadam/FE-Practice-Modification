@@ -1,3 +1,7 @@
+.navbar {
+  padding: 0px;
+}
+
 .navbar-nav {
   height: 100%;
 }
@@ -10,6 +14,18 @@
   margin-inline: 10px;
 }
 
+.con {
+  margin-inline: 0;
+}
+
+.ktm {
+  width: 65px;
+  height: 65px;
+
+  display: flex;
+  justify-content: flex-end;
+}
+
 .nav-link::after {
   content: '';
   position: absolute;
@@ -19,7 +35,7 @@
   height: 2.5px;
   width: 0;
   left: 0;
-  bottom: -13px;
+  bottom: -12px;
 }
 
 .nav-link.active::after {
@@ -29,5 +45,13 @@
 @media (max-width: 750px) {
   .nav-link.active::after {
     width: 0;
+  }
+  .con {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .ktm {
+    margin-top: 10px;
+    margin-left: 10px;
   }
 }
