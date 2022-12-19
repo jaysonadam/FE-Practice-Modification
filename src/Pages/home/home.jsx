@@ -3,6 +3,7 @@ import React from 'react';
 import './home.css';
 import { Button } from 'react-bootstrap';
 import KTMINTRO from '../../Images-Videos/videos/KTMINTRO.mp4';
+import DUKERIDER from '../../Images-Videos/videos/DUKERIDER.mp4'
 
 function Home() {
   return (
@@ -24,7 +25,8 @@ function Home() {
         </div>
 
         <div className='d-flex justify-content-around'>
-          
+          <video width='100%' src={DUKERIDER} autoPlay loop playsinline className='video-ktm' />
+          <img src={require('../../Images-Videos/images/duke/duke200-1.png')}/>
         </div>
       </div>
 
