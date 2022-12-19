@@ -20,10 +20,21 @@ function Navigation() {
                             <Nav.Link href='/products'>
                                 Bike Catalogue
                             </Nav.Link>
+                            <Nav.Link href='/products'>
+                                Racing Profile
+                            </Nav.Link>
                         </Nav>
                         <Navbar.Collapse className="justify-content-end">
                             <img src={require('../../Images-Videos/images/ktm-logo.jpg')} className='ktm'/>
                         </Navbar.Collapse>
+                        <Nav>
+                            <Nav.Link href='https://www.instagram.com/ktmindonesiaofficial/' className='icons-nav'>
+                                <i class="bi bi-instagram"></i>
+                            </Nav.Link>
+                            <Nav.Link href='https://mobile.twitter.com/RedBull_KTM_Ajo' className='icons-nav'>
+                                <i class="bi bi-twitter"></i>
+                            </Nav.Link>
+                        </Nav>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>

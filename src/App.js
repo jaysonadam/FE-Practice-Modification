@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Home from "./Pages/home/home";
-import Products from "./Pages/products";
+import Products from "./Pages/products/products";
 import Navigation from "./Components/Navbar/Navbar";
 
 function App() {
