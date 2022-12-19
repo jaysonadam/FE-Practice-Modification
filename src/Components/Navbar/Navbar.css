@@ -6,6 +6,11 @@
   height: 100%;
 }
 
+.navbar-brand {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 .nav-link {
   position: relative;
 
@@ -50,10 +55,6 @@
   .con {
     margin-top: 10px;
     margin-bottom: 10px;
-  }
-  .ktm {
-    margin-top: 10px;
-    margin-left: 10px;
   }
 }
 

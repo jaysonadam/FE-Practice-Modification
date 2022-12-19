@@ -11,6 +11,9 @@ function Navigation() {
         <div>
             <Navbar expand="md" bg="black" variant="dark">
                 <Container className='con'>
+                    <Navbar.Brand>
+                        <img src={require('../../Images-Videos/images/ktm-logo.jpg')} className='ktm'/>
+                    </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav activeKey={location.pathname}>
@@ -24,9 +27,7 @@ function Navigation() {
                                 Racing Profile
                             </Nav.Link>
                         </Nav>
-                        <Navbar.Collapse className="justify-content-end">
-                            <img src={require('../../Images-Videos/images/ktm-logo.jpg')} className='ktm'/>
-                        </Navbar.Collapse>
+
                         <Nav className="ms-auto me-2">
                             <Nav.Link href='https://www.instagram.com/ktmindonesiaofficial/' className='icons-nav'>
                                 <i class="bi bi-instagram"></i>
