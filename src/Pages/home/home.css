@@ -1,0 +1,35 @@
+.con {
+    width: 100%;
+    height: 100%;
+}
+
+.video-ktm {
+    position: relative;
+
+    transition: .5s ease-in-out;
+}
+
+.w {
+    color: black;
+
+    position: absolute;
+    top: 25%;
+    left: 25%;
+
+    opacity: 0;
+    transition: .5s ease;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.con:hover .video-ktm {
+    opacity: 0.3;
+}
+
+.con:hover .w {
+    opacity: 1;
+}
+
+.sub {
+    color: #FF6600;
+}
