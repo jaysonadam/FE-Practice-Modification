@@ -10,7 +10,7 @@ function Home() {
 
       <div className='d-flex flex-column'>
         <div className='cont'>
-          <video width='100%' src={KTMINTRO} autoPlay loop className='video-ktm' />
+          <video width='100%' src={KTMINTRO} autoPlay loop playsinline className='video-ktm' />
           <div className='w'>
             <h1>Welcome to KTM</h1>
             <h3 className='sub'>Ready to Race</h3>
