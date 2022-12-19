@@ -25,7 +25,7 @@ function Home() {
         </div>
 
         <div className='d-flex justify-content-center'>
-          <video width='100%' src={DUKERIDER} autoPlay loop playsinline className='video-ktm' />
+          <video width='100%' src={DUKERIDER} autoPlay loop playsinline type="video/mp4" className='video-ktm' />
         </div>
       </div>
 
