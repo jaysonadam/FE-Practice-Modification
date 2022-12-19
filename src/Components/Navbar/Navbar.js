@@ -23,7 +23,7 @@ function Navigation() {
                             <Nav.Link href='/products'>
                                 Bike Catalogue
                             </Nav.Link>
-                            <Nav.Link href='/products'>
+                            <Nav.Link href='/profile'>
                                 Racing Profile
                             </Nav.Link>
                         </Nav>
