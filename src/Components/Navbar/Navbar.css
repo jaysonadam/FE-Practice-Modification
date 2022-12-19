@@ -15,7 +15,8 @@
 }
 
 .con {
-  margin-inline: 0;
+  margin-inline: 10px;
+  max-width: 100%;
 }
 
 .ktm {
