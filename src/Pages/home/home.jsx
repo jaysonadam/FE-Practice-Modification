@@ -11,7 +11,9 @@ function Home() {
 
       <div className='d-flex flex-column'>
         <div className='cont'>
-          <video width='100%' src={KTMINTRO} autoPlay loop playsinline type="video/mp4" className='video-ktm' />
+          <video width='100%' loop playsinline controls className='video-ktm'>
+            <source src={KTMINTRO} type="video/mp4"></source>
+          </video>
           <div className='w'>
             <h1>Welcome to KTM</h1>
             <h3 className='sub'>Ready to Race</h3>
@@ -25,7 +27,9 @@ function Home() {
         </div>
 
         <div className='d-flex justify-content-center'>
-          <video width='100%' src={DUKERIDER} autoPlay loop playsinline type="video/mp4" className='video-ktm' />
+        <video width='100%' loop playsinline controls className='video-ktm'>
+            <source src={DUKERIDER} type="video/mp4"></source>
+          </video>
         </div>
       </div>
 
