@@ -34,6 +34,9 @@ function Navigation() {
                             <Nav.Link href='https://mobile.twitter.com/RedBull_KTM_Ajo' className='icons-nav'>
                                 <i class="bi bi-twitter"></i>
                             </Nav.Link>
+                            <Nav.Link href='https://goo.gl/maps/hk4XYUDKvKd9FXri7' className='icons-nav'>
+                                <i class="bi bi-geo-alt"></i>
+                            </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
