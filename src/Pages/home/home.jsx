@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useInView } from 'react-intersection-observer';
 
 import './home.css';
@@ -7,7 +7,8 @@ import { Button } from 'react-bootstrap';
 // import DUKERIDER from '../../Images-Videos/videos/DUKERIDER.mp4';
 
 function Home() {
-  const { ref: myRef, inView: myComponentIsVisible } = useInView();
+  const { ref: myRef, inView: isVisible } = useInView();
+  const { ref: textRef, inView: textIsVisible } = useInView();
 
   return (
     <div className='d-flex justify-content-center w-100'>
@@ -30,12 +31,17 @@ function Home() {
           </div>
         </div>
 
-        <div className='d-flex justify-content-center'>
           {/* <video width='100%' loop playsinline controls className='video-ktm'>
             <source src={DUKERIDER} type="video/mp4"></source>
           </video> */}
-          <img src={require('../../Images-Videos/images/rc/rc390.jpg')} className={`${ myComponentIsVisible ? 'bg-390 bg-animated' : 'bg-390' }`} ref={myRef} />
-        </div>
+          <div className='cont'>
+            <img src={require('../../Images-Videos/images/rc/rc390.jpg')} className={`${ isVisible ? 'bg-390 bg-animated' : 'bg-390' }`} ref={myRef}/>
+            <div className='text-390'>
+              <h1>Feel the power</h1>
+              <h3 className='sub'>Experience the torque</h3>
+              <h3 className='sub'>#getDUKED #weRC</h3>
+            </div>
+          </div>
       </div>
 
     </div>
