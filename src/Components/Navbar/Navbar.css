@@ -6,6 +6,18 @@
   height: 100%;
 }
 
+.nav-home {
+  margin-top: 0px;
+}
+
+.navbar-toggler {
+  color: #FF6600;
+}
+
+.navbar-toggler-icon {
+  color: #FF6600;
+}
+
 .navbar-brand {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -52,6 +64,11 @@
   .nav-link.active::after {
     width: 0;
   }
+
+  .nav-home {
+    margin-top: 20px;
+  }
+
   .con {
     margin-top: 10px;
     margin-bottom: 10px;

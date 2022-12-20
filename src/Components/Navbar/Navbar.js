@@ -17,7 +17,7 @@ function Navigation() {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav activeKey={location.pathname}>
-                            <Nav.Link href='/'>
+                            <Nav.Link href='/' className='nav-home'>
                                 Home
                             </Nav.Link>
                             <Nav.Link href='/products'>
