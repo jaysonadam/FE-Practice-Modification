@@ -11,25 +11,26 @@ function Home() {
 
       <div className='d-flex flex-column'>
         <div className='cont'>
-          <video width='100%' loop playsinline controls className='video-ktm'>
+          {/* <video width='100%' loop playsinline controls className='video-ktm'>
             <source src={KTMINTRO} type="video/mp4"></source>
-          </video>
+          </video> */}
+          <img src={require('../../Images-Videos/images/rc/rc.jpg')} className='bg-home' />
           <div className='w'>
             <h1>Welcome to KTM</h1>
             <h3 className='sub'>Ready to Race</h3>
             <Button className='button-home' href="/products">
               Our Bikes
             </Button>
-            <Button className='button-home' href="/products">
+            <Button className='button-home' href="/profile">
               Racing Profile
             </Button>
           </div>
         </div>
 
         <div className='d-flex justify-content-center'>
-        <video width='100%' loop playsinline controls className='video-ktm'>
+          {/* <video width='100%' loop playsinline controls className='video-ktm'>
             <source src={DUKERIDER} type="video/mp4"></source>
-          </video>
+          </video> */}
         </div>
       </div>
 
