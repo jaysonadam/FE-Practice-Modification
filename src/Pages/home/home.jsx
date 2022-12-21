@@ -44,7 +44,7 @@ function Home() {
           </div>
 
           <div className='d-flex justify-content-evenly flex-wrap'>
-            <div className='cnt'>
+            <div className='cnt top'>
               <a href='/products'>
                 <img src={require('../../Images-Videos/images/duke/duke390-10.jpg')} className='img-click'></img>
                 <div className='img-text'>

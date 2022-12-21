@@ -106,8 +106,11 @@
     height: 400px;
 
     margin-top: 20px;
-    margin-bottom: 20px;
     margin-inline: 20px;
+}
+
+.top {
+    margin-top: 20px;
 }
 
 .img-click {
@@ -261,8 +264,8 @@
         opacity: 0.5;
     } */
 
-    .cnt {
-        margin-top: 100px;
+    .top {
+        margin-top: 200px;
     }
     
     .img-click:active {
