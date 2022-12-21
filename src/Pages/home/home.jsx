@@ -49,6 +49,7 @@ function Home() {
                 <img src={require('../../Images-Videos/images/duke/duke390-10.jpg')} className='img-click'></img>
                 <div className='img-text'>
                     <h1 className='img-sub'>Get Naked</h1>
+                    <h5 className='click'>Click to see</h5>
                 </div>
               </a>
             </div>
@@ -57,7 +58,8 @@ function Home() {
               <a href='/profile'>
                 <img src={require('../../Images-Videos/images/motogp/rc16.jpg')} className='img-click'></img>
                 <div className='img-text'>
-                  <h1 className='img-sub'>Ready to Race</h1>
+                  <h1 className='img-sub'>Racing</h1>
+                  <h5 className='click'>Click to see</h5>
                 </div>
               </a>
             </div>
