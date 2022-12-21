@@ -2,7 +2,7 @@ import React from 'react'
 
 import './profile.css';
 import { Carousel } from 'react-bootstrap';
-import MOTOGP from '../../Images-Videos/videos/motogp-ktm.mp4';
+import MOTOGP from '../../Images-Videos/videos/MOTOGP.mp4';
 
 const slideImages = [
   {
