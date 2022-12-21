@@ -2,6 +2,7 @@ import React from 'react'
 
 import './profile.css';
 import { Carousel } from 'react-bootstrap';
+import MOTOGP from '../../Images-Videos/videos/motogp-ktm.mp4';
 
 const slideImages = [
   {
@@ -36,6 +37,12 @@ function Profile() {
 
           })}
       </Carousel>
+
+      <h2 className='profile-subhead'>We are ready for 2023</h2>
+
+      <video width='100%' loop playsinline controls className='video-ktm'>
+        <source src={MOTOGP} type="video/mp4"></source>
+      </video>
     </div>
   )
 }
