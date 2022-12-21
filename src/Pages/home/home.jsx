@@ -8,10 +8,9 @@ import { Button } from 'react-bootstrap';
 
 function Home() {
   const { ref: myRef, inView: isVisible } = useInView();
-  const { ref: textRef, inView: textIsVisible } = useInView();
 
   return (
-    <div className='d-flex justify-content-center w-100'>
+    <div className='d-flex justify-content-center w-100 overflow-hidden mb-5'>
 
       <div className='d-flex flex-column'>
           <div className='cont'>
