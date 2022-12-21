@@ -14,22 +14,22 @@ function Home() {
     <div className='d-flex justify-content-center w-100'>
 
       <div className='d-flex flex-column'>
-        <div className='cont'>
-          {/* <video width='100%' loop playsinline controls className='video-ktm'>
-            <source src={KTMINTRO} type="video/mp4"></source>
-          </video> */}
-          <img src={require('../../Images-Videos/images/rc/rc.jpg')} className='bg-home' />
-          <div className='w'>
-            <h1>Welcome to KTM</h1>
-            <h3 className='sub'>Ready to Race</h3>
-            <Button className='button-home' href="/products">
-              Our Bikes
-            </Button>
-            <Button className='button-home' href="/profile">
-              Racing Profile
-            </Button>
+          <div className='cont'>
+            {/* <video width='100%' loop playsinline controls className='video-ktm'>
+              <source src={KTMINTRO} type="video/mp4"></source>
+            </video> */}
+            <img src={require('../../Images-Videos/images/rc/rc.jpg')} className='bg-home' />
+            <div className='w'>
+              <h1>Welcome to KTM</h1>
+              <h3 className='sub'>Ready to Race</h3>
+              <Button className='button-home' href="/products">
+                Our Bikes
+              </Button>
+              <Button className='button-home' href="/profile">
+                Racing Profile
+              </Button>
+            </div>
           </div>
-        </div>
 
           {/* <video width='100%' loop playsinline controls className='video-ktm'>
             <source src={DUKERIDER} type="video/mp4"></source>
@@ -40,6 +40,26 @@ function Home() {
               <h1>Feel the power</h1>
               <h3 className='sub'>Experience the torque</h3>
               <h3 className='sub'>#getDUKED #weRC</h3>
+            </div>
+          </div>
+
+          <div className='d-flex justify-content-evenly flex-wrap'>
+            <div className='cnt'>
+              <a href='/products'>
+                <img src={require('../../Images-Videos/images/duke/duke390-10.jpg')} className='img-click'></img>
+                <div className='img-text'>
+                    <h1 className='img-sub'>Get Naked</h1>
+                </div>
+              </a>
+            </div>
+            
+            <div className='cnt'>
+              <a href='/profile'>
+                <img src={require('../../Images-Videos/images/motogp/rc16.jpg')} className='img-click'></img>
+                <div className='img-text'>
+                  <h1 className='img-sub'>Ready to Race</h1>
+                </div>
+              </a>
             </div>
           </div>
       </div>
