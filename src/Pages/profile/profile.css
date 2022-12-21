@@ -110,3 +110,10 @@
         opacity: 1;
     }
 }
+
+@media (max-width: 600px) {
+    .img-card {
+        width: 100%;
+        height: 100%
+    }
+}
