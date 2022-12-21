@@ -12,7 +12,7 @@
 } */
 
 .bg-home {
-    width: 100%;
+    width: 100vw;
     height: 100%;
     object-fit: cover;
     overflow-x: hidden;
@@ -21,7 +21,7 @@
 }
 
 .bg-390 {
-    width: 100%;
+    width: 100vw;
     height: 100%;
     object-fit: cover;
     overflow-x: hidden;
@@ -155,6 +155,14 @@
 }
 
 @media (max-width: 1400px) {
+    .bg-home {
+        width: 100%;
+    }
+
+    .bg-390 {
+        width: 100%;
+    }
+
     .img-click {
         width: 100vw;
         height: 400px;

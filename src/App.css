@@ -4,3 +4,8 @@
     /* font-family: 'Comfortaa', cursive; */
     /* font-family: 'Outfit', sans-serif; */
 }
+
+Body {
+    padding: 0;
+    margin: 0;
+}
