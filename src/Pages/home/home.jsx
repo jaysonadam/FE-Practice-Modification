@@ -10,7 +10,7 @@ function Home() {
   const { ref: myRef, inView: isVisible } = useInView();
 
   return (
-    <div className='d-flex justify-content-center w-100 overflow-hidden mb-5'>
+    <div className='d-flex justify-content-center w-100 overflow-hidden mb-4'>
 
       <div className='d-flex flex-column'>
           <div className='cont'>

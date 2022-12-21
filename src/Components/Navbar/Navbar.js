@@ -9,7 +9,7 @@ function Navigation() {
 
     return (
         <div>
-            <Navbar expand="md" bg="black" variant="dark">
+            <Navbar expand="md" bg="dark" variant="dark">
                 <Container className='con'>
                     <Navbar.Brand>
                         <img src={require('../../Images-Videos/images/ktm-logo.jpg')} className='ktm'/>

@@ -156,12 +156,12 @@
 @media (max-width: 1400px) {
     .bg-home {
         width: 100%;
-        height: 100%;
+        height: 100vh;
     }
 
     .bg-390 {
         width: 100%;
-        height: 100%;
+        height: 100vh;
     }
 
     .img-click {
@@ -275,7 +275,7 @@
     } */
 
     .top {
-        margin-top: 200px;
+        margin-top: 50px;
     }
     
     .img-click:active {
