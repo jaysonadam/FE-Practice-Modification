@@ -116,7 +116,7 @@ function Profile() {
               <Card.ImgOverlay>
                 <div className='rider-img-text'>
                   <div className='d-flex flex-column'>
-                    <h1>
+                    <h1 className='rider-name'>
                       {rider.name}
                     </h1>
                     <Button className='rider-details'>Rider Details</Button>
