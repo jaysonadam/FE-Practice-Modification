@@ -87,7 +87,7 @@ function Profile() {
   const params = useParams();
 
   const [ rider, setRider ] = useState();
-  console.log(rider);
+  console.log(rider[1].src);
 
   useEffect(() => {
     axios
@@ -102,9 +102,11 @@ function Profile() {
         });
   }, []);
 
+  // const { src } = rider;
   return (
     <div>
-      <h1>{rider[0].name}</h1>
+      <img src={rider[1].src} />
+      {/* <h1>{rider[0].name}</h1> */}
       <div className='d-flex justify-content-center mt-5'>
         <img src={require('../../Images-Videos/images/Factory Racing Logo.jpg')} className='factory'/>
       </div>
@@ -129,22 +131,23 @@ function Profile() {
       <h1 className='profile-head'>Meet our Riders</h1>
 
       <div className='rider'>
-          {riders.map((rider) => {
+          {/* {rider.map((rdr) => {
+            console.log(src)
 
             return <Card className='kartu'>
-              <Card.Img src={rider.src} className='img-card'/>
+              <Card.Img src={rdr.src} className='img-card'/>
               <Card.ImgOverlay>
                 <div className='rider-img-text'>
                   <div className='d-flex flex-column'>
                     <h1 className='rider-name'>
-                      {rider.name}
+                      {rdr.name}
                     </h1>
                     <Button className='rider-details'>Rider Details</Button>
                   </div>
                 </div>
               </Card.ImgOverlay>
             </Card>
-          })}
+          })} */}
       </div>
 
       <div>

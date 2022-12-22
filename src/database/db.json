@@ -7,7 +7,7 @@
             "number": 33,
             "country": "South Africa",
             "birthday": "August 11th, 1995",
-            "src": "require('../../Images-Videos/images/motogp/riders/brad.jpg')"
+            "src": "../../Images-Videos/images/motogp/riders/brad.jpg"
           },
           {
             "id": 2,
