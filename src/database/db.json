@@ -7,7 +7,7 @@
             "number": 33,
             "country": "South Africa",
             "birthday": "August 11th, 1995",
-            "src": "../../Images-Videos/images/motogp/riders/brad.jpg"
+            "src": "https://s7g10.scene7.com/is/image/ktm/brad-binder-motogp?wid=1000&dpr=off"
           },
           {
             "id": 2,
@@ -16,7 +16,7 @@
             "number": 88,
             "country": "Portugal",
             "birthday": "January 1st, 1995",
-            "src": "require('../../Images-Videos/images/motogp/riders/miguel.jpg')"
+            "src": "https://s7g10.scene7.com/is/image/ktm/miguel-oliveira-motogp:Large?wid=1575&hei=900&dpr=off"
           },
           {
             "id": 3,
@@ -25,7 +25,7 @@
             "number": 25,
             "country": "Spain",
             "birthday": "October 23rd, 2000",
-            "src": "require('../../Images-Videos/images/motogp/riders/raul.jpg')"
+            "src": "https://s7g10.scene7.com/is/image/ktm/raul-fernandez-tech3-ktm-motogp:Large?wid=1575&hei=904&dpr=off"
           },
           {
             "id": 4,
@@ -34,7 +34,7 @@
             "number": 87,
             "country": "Australia",
             "birthday": "February 24th, 1998",
-            "src": "require('../../Images-Videos/images/motogp/riders/remy.jpg')"
+            "src": "https://s7g10.scene7.com/is/image/ktm/remy-gardner-tech3-ktm-motogp:Large?wid=1575&hei=900&dpr=off"
           },
           {
             "id": 5,
