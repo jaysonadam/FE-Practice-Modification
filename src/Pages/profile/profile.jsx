@@ -1,7 +1,7 @@
 import React from 'react'
 
 import './profile.css';
-import { Carousel, Card, Button } from 'react-bootstrap';
+import { Carousel, Card, Button, Tab, Tabs } from 'react-bootstrap';
 import MOTOGP from '../../Images-Videos/videos/MOTOGP.mp4';
 
 const slideImages = [
@@ -125,6 +125,37 @@ function Profile() {
               </Card.ImgOverlay>
             </Card>
           })}
+      </div>
+
+      <div>
+        <h1 className='fim'>FIM World Championship</h1>
+
+        <Tabs defaultActiveKey="MotoGP" id="fill-tab-example" className="mb-3 my-5 mx-4" fill>
+          <Tab eventKey="MotoGP" title="MotoGP" className='tab-gp'>
+            <h3 className='tab-text'>
+
+              2021 saw Brad Binder match the all-time speed record of 362.4km/h aboard his KTM RC16. The season included a phenomenal victory in Catalunya by Miguel Oliveira, as well as a brave wet weather victory from Brad Binder in Spielberg. Unpolished. Unscripted. Untamed. KTM Factory Racing is certainly ready for 2022.
+
+            <img src={require('../../Images-Videos/images/motogp/rc16.jpg')} className='rc'/>
+
+              KTM entered the premier MotoGP category with the newly developed KTM RC16 in 2017 and has since been developing its machine in an arena that demands the highest technical know-how. In a short time KTM has bridged the gap from the back of the grid to be serious competitors and race-winners in the premier category. KTM continues with a four-rider line-up in 2022; MotoGP race-winners Brad Binder and Miguel Oliveira in the Red Bull KTM Factory Racing team along with 2021 Moto2 World Champion Remy Gardner and runner-up Raul Fernandez in the Tech3 KTM Factory Racing outfit. MotoGP Legend Dani Pedrosa and Mika Kallio ensure a deeply experienced test team.
+
+            </h3>
+          </Tab>
+          <Tab eventKey="Moto2" title="Moto2 / Moto3" className='tab-gp'>
+            <h3 className='tab-text'>
+              
+              KTM has one of the most extensive networks operating through MotoGP. The manufacturer pushes potential new and exciting athletes through a concept entitled the ‘KTM GP Academy’. Moto3 is the foundation on FIM Grand Prix World Championship level, and KTM boasts five Moto3 FIM World Championship titles in the class – three achieved with help from long-term partner Red Bull KTM Ajo in 2012, 2016 and 2021 – and two with a customer version of the KTM RC4 in 2013 and 2020. In 2022 Red Bull KTM Ajo´s Jaume Masia and Dani Holgado  – joined by Red Bull KTM Tech3 duo Deniz Öncü and Adrian Fernandez - are four of 12 KTM RC4 riders aiming for glory in Moto3. 2021 Moto3 World Champion Pedro Acosta and Augusto Fernandez maintain fast and competitive links for Red Bull KTM Ajo in Moto2 in 2022.
+
+            <img src={require('../../Images-Videos/images/motogp/moto2-4.jpg')} className='rc'/>
+            <h3 className='tab-text mt-0'>Moto 2 World Championship</h3>
+
+            <img src={require('../../Images-Videos/images/motogp/moto3-3.jpg')} className='rc'/>
+            <h3 className='tab-text mt-0'>KTM RC4 Moto 3 World Championship</h3>
+
+            </h3>
+          </Tab>
+        </Tabs>
       </div>
     </div>
   )
