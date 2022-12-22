@@ -97,7 +97,7 @@ function Profile() {
             <img src={slide.src} className="ima" />
           </Carousel.Item>
 
-          })}
+        })}
       </Carousel>
 
       <h2 className='profile-subhead'>We are ready for 2023</h2>
