@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react';
+import axios from "../../axios/axios";
+import { useParams } from "react-router-dom";
 
 import './profile.css';
 import { Carousel, Card, Button, Tab, Tabs } from 'react-bootstrap';
@@ -78,13 +80,31 @@ const riders = [
     country: 'Turkey',
     birthday: 'July 26th, 2003',
     src: require('../../Images-Videos/images/motogp/riders/deniz.jpg')
-  },
+  }
 ]
 
 function Profile() {
+  const params = useParams();
+
+  const [ rider, setRider ] = useState();
+  console.log(rider);
+
+  useEffect(() => {
+    axios
+        .get("/riders", { params: { id: params.id } })
+        .then((res) => {
+          console.log(res)
+          console.log(res.data)
+          setRider(res.data)
+        })
+        .catch((err) => {
+          console.log({ err });
+        });
+  }, []);
 
   return (
     <div>
+      <h1>{rider[0].name}</h1>
       <div className='d-flex justify-content-center mt-5'>
         <img src={require('../../Images-Videos/images/Factory Racing Logo.jpg')} className='factory'/>
       </div>
