@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from "../../axios/axios";
+import { useParams } from "react-router-dom";
 
 import './profile.css';
 import { Carousel, Card, Button, Tab, Tabs } from 'react-bootstrap';
@@ -146,7 +147,7 @@ function Profile() {
                 </div>
               </Card.ImgOverlay>
             </Card>
-
+            
           })}
       </div>
 
