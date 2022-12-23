@@ -1,0 +1,14 @@
+useEffect(() => {
+    axios
+        .get("/riders", { params: { id: params.id } })
+        .then((res) => {
+          setRider(res.data)
+        })
+        .catch((err) => {
+          console.log({ err });
+        });
+  }, []);
+
+  run json.server --> npm run json.server
+
+  track videos (git) --> git lfs track ""
