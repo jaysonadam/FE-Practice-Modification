@@ -11,7 +11,13 @@ const riders = [
       number: 33,
       country: "South Africa",
       birthday: "August 11th, 1995",
-      src: require("../../Images-Videos/images/riders/brad.jpg")
+      src: require("../../Images-Videos/images/riders/brad.jpg"),
+      src1: require("../../Images-Videos/images/riders/brad-2.jpg"),
+      src2: require("../../Images-Videos/images/riders/brad-3.jpg"),
+      src3: require("../../Images-Videos/images/riders/brad-4.jpg"),
+      src4: require("../../Images-Videos/images/riders/brad-5.jpg"),
+      src5: require("../../Images-Videos/images/riders/brad-6.jpg"),
+      src6: require("../../Images-Videos/images/riders/brad-7.jpg")
     },
     {
       id: 2,
@@ -20,7 +26,16 @@ const riders = [
       number: 88,
       country: "Portugal",
       birthday: "January 1st, 1995",
-      src: require("../../Images-Videos/images/riders/miguel.jpg")
+      src: require("../../Images-Videos/images/riders/miguel.jpg"),
+      src1: require("../../Images-Videos/images/riders/miguel-2.jpg"),
+      src2: require("../../Images-Videos/images/riders/miguel-3.jpg"),
+      src3: require("../../Images-Videos/images/riders/miguel-4.jpg"),
+      src4: require("../../Images-Videos/images/riders/miguel-5.jpg"),
+      src5: require("../../Images-Videos/images/riders/miguel-6.jpg"),
+      src6: require("../../Images-Videos/images/riders/miguel-7.jpg"),
+      src7: require("../../Images-Videos/images/riders/miguel-8.jpg"),
+      src8: require("../../Images-Videos/images/riders/miguel-9.jpg"),
+      src9: require("../../Images-Videos/images/riders/miguel-10.jpg"),
     },
     {
       id: 3,
@@ -78,7 +93,7 @@ function Riders() {
             {riders.filter(rider => rider.id == id).map(filtered => (
                 <div className='d-flex flex-row flex-wrap'>
                     <img src={filtered.src} className='rider-img'/>
-                    <div className='d-flex flex-column p-5'>
+                    <div className='d-flex flex-column rider-container'>
                       <h1 className='rider-name-p'>{filtered.name}</h1>
                       <h3 className='rider-info'>Class: {filtered.class}</h3>
                       <h3 className='rider-info'>Number: {filtered.number}</h3>
