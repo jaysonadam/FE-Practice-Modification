@@ -117,7 +117,7 @@ function Products() {
   return (
 
     <>
-    <div className='d-flex justify-content-center'>
+    <div className='d-flex justify-content-center crsl'>
       <Carousel partialVisible={true} responsive={responsive} swipeable={true} draggable={true} infinite={true} className='car'>
         {duke.map((d) => {
           return <ProductsCard details={d}/>

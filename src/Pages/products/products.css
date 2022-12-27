@@ -1,3 +1,7 @@
+.crsl {
+    margin: 30px;
+}
+
 .product-head {
     font-size: 100px;
     color: #FF6600;
@@ -11,4 +15,10 @@
 
 .car {
     width: 100vw;
+}
+
+@media (max-width: 1500px) {
+    .crsl {
+        margin: 0px;
+    }
 }
