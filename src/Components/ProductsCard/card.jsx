@@ -9,11 +9,11 @@ function ProductsCard(props) {
 
     return (
         <>
-            <div className='d-card'>
+            <div>
                 {/* {gambar.map((images) => {
                     return <img src={images.src}/>
                 })} */}
-
+                <a href='/profile' className='a-card'>
                 <Card className="bg-dark text-white products-card">
                 <Card.Img src={details.src} alt="Card image" className='img-kartu'/>
                 <Card.ImgOverlay>
@@ -25,6 +25,7 @@ function ProductsCard(props) {
                     <Card.Text>Last updated 3 mins ago</Card.Text>
                 </Card.ImgOverlay>
                 </Card>
+                </a>
             </div>
         </>
     )

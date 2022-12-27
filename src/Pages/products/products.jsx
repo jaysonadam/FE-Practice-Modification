@@ -96,12 +96,12 @@ const duke = [
 
 const responsive = {
   desktop: {
-    breakpoint: { max: 3000, min: 1400 },
-    items: 2,
+    breakpoint: { max: 3000, min: 1500 },
+    items: 3,
     partialVisibilityGutter: 40 // this is needed to tell the amount of px that should be visible.
   },
   tablet: {
-    breakpoint: { max: 1400, min: 464 },
+    breakpoint: { max: 1500, min: 464 },
     items: 1,
     // partialVisibilityGutter: 30 // this is needed to tell the amount of px that should be visible.
   },
@@ -118,7 +118,7 @@ function Products() {
 
     <>
     <div className='d-flex justify-content-center'>
-      <Carousel partialVisible={true} responsive={responsive} swipeable={true} draggable={true} autoPlay={true}transitionDuration={2000} infinite={true} className='car'>
+      <Carousel partialVisible={true} responsive={responsive} swipeable={true} draggable={true} infinite={true} className='car'>
         {duke.map((d) => {
           return <ProductsCard details={d}/>
         })}
