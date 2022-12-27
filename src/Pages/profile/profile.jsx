@@ -22,6 +22,9 @@ const slideImages = [
   },
   {
     src: require('../../Images-Videos/images/motogp/motogp-4.jpg')
+  },
+  {
+    src: require('../../Images-Videos/images/motogp/ktm-pit.jpg')
   }
 ];
 
