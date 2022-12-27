@@ -1,0 +1,10 @@
+.product-head {
+    font-size: 100px;
+    color: #FF6600;
+
+    margin-top: 40px;
+    margin-inline: 40px;
+
+    display: flex;
+    justify-content: flex-start;
+}

@@ -101,9 +101,7 @@ function Riders() {
                       <h3 className='rider-info'>Birth date: {filtered.birthday}</h3>
                     </div>
                 </div>
-                )
-            
-            )}
+            ))}
         </div>
     )
 }
