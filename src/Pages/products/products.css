@@ -1,13 +1,33 @@
 .duke {
     /* position: relative; */
-    height: 170vh;
+    height: 300vh;
 }
 
 .duke-video {
-    top: 10%;
-    left: 10%;
+    /* top: 10%;
+    left: 10%; */
+
+    width: 100%;
+    margin-right: 100px;
 
     position: relative;
+
+    z-index: 1;
+}
+
+.duke-box {
+    width: 1200px;
+    height: 300vh;
+    padding: 30px;
+
+    z-index: 0;
+
+    position: absolute;
+
+    /* display: flex;
+    justify-content: center; */
+
+    background-color: #FF6600;
 }
 
 .box-wrapper {
@@ -20,15 +40,15 @@
     top: 40%;
 }
 
-.duke-box-text {
+/* .duke-box-text {
     width: 70vw;
     height: 100%;
 
     padding-top: 50px;
     padding-inline: 50px;
-}
+} */
 
-.duke-box-subtext {
+/* .duke-box-subtext {
     width: 70vw;
     height: 100%;
 
@@ -37,7 +57,7 @@
 
     padding-bottom: 50px;
     padding-inline: 50px;
-}
+} */
 
 .duke-text {
     display: flex;
@@ -52,8 +72,49 @@
     font-size: 30px;
     color: black;
 
-    text-align: end;
+    text-align: start;
+
+    max-width: 350px;
+    margin-right: 100px;
 }
+
+.duke-subtext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+    width: 120%;
+    height: 500px;
+
+    margin-top: 70px;
+}
+
+.duke-subtext-2 {
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-end; */
+
+    position: relative;
+
+    height: 500px;
+    margin-top: 70px;
+}
+
+.duke-text-h3-2 {
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    color: black;
+
+    text-align: end;
+
+    width: 300px;
+}
+
+/* .duke-200 {
+    position: absolute;
+} */
 
 .duke-text-b {
     height: 100%;
@@ -71,24 +132,14 @@
     color: black
 }
 
-.duke-box {
-    width: 70vw;
-    height: 900px;
-
-    position: absolute;
-
-    display: flex;
-    justify-content: flex-end;
-
-    background-color: #FF6600;
-}
-
 .crsl {
     margin-top: 80px;
     margin-bottom: 80px;
-    margin-inline: 30px;
+    padding-inline: 30px;
     
-    position: absolute;
+    position: relative;
+
+    width: 100%;
 }
 
 .product-head {
@@ -152,8 +203,29 @@
 }
 
 @media (max-width: 900px) {
+    .duke-video {
+        width: 100vw;
+
+        position: relative;
+    }
     .box-wrapper {
-        top: 30%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+
+        left: 0%;
+        top: 70%;
+    }
+    .duke-box {
+        width: 100vw;
+        height: 150vh;
+    
+        position: absolute;
+    
+        background-color: #FF6600;
+    }
+    .duke-text-b {
+        font-size: 60px;
     }
     .crsl {
         margin-top: 50px;

@@ -85,7 +85,7 @@ const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 1500 },
     items: 3,
-    partialVisibilityGutter: 40 // this is needed to tell the amount of px that should be visible.
+    partialVisibilityGutter: 60 // this is needed to tell the amount of px that should be visible.
   },
   tablet: {
     breakpoint: { max: 1500, min: 400 },
@@ -105,9 +105,8 @@ function Products() {
 
     <>
       <div className='duke'>
-        <div className='box-wrapper'>
-          	<div className='duke-box'>
-              <div className='d-flex flex-column'>
+        {/* <div className='box-wrapper'> */}
+              {/* <div className='d-flex flex-column'>
                 <div className='duke-box-text'>
                   <h1 className='duke-text'>Duke</h1>
                   <h3 className='duke-text-h3'>Get naked</h3>
@@ -120,12 +119,30 @@ function Products() {
                     <h3 className='duke-text-h3-b'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quod. Officiis delectus at ullam nulla voluptatem aperiam, suscipit nihil, dolor eos omnis quos perspiciatis vitae sapiente molestias dicta! Laudantium, repudiandae eos. Harum illum officia eligendi, ad vel cum laboriosam aliquid?</h3>
                   </div>
                 </div>
-              </div>
+              </div> */}
+        {/* </div> */}
+        <div className='d-flex justify-content-center'>
+          <div className='duke-box'>
+            <h1 className='duke-text'>DUKE</h1>
+            {/* <div className='duke-subtext'>
+              <h3 className='duke-text-h3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda exercitationem suscipit dicta qui aut consectetur saepe! Doloribus earum inventore vero!</h3>
+            </div> */}
+            <div className='duke-subtext'>
+              <h3 className='duke-text-h3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos amet consectetur, unde quas nihil illo fugit velit cum inventore veritatis.</h3>
+              <video loop playsinline autoPlay className='duke-video'>
+                <source src={DUKERIDER} type="video/mp4"/>
+              </video>
             </div>
+            <div className='duke-subtext-2'>
+              <img src={require("../../Images-Videos/images/duke/duke200-2.png")} className='duke-img'/>
+              <h3 className='duke-text-h3-2'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, perferendis.</h3>
+            </div>
+            <div className='duke-subtext'>
+              <h3 className='duke-text-h3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod iusto cupiditate minus. Ab dicta tempora dolore, nobis porro maiores soluta, laboriosam quisquam perferendis quos explicabo, odio sequi culpa iusto doloribus!</h3>
+              <img src={require("../../Images-Videos/images/duke/duke790-6.jpg")} className='duke-img'/>
+            </div>
+          </div>
         </div>
-        <video width='60%' loop playsinline controls className='duke-video'>
-          <source src={DUKERIDER} type="video/mp4"/>
-        </video>
       </div>
 
       <div className='d-flex justify-content-center crsl'>
