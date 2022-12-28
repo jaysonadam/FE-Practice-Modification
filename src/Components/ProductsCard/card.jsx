@@ -14,16 +14,13 @@ function ProductsCard(props) {
                     return <img src={images.src}/>
                 })} */}
                 <a href='/profile' className='a-card'>
-                <Card className="bg-dark text-white products-card">
-                <Card.Img src={details.src} alt="Card image" className='img-kartu'/>
+                <Card className="text-white products-card">
                 <Card.ImgOverlay>
-                    <Card.Title>Card title</Card.Title>
-                    <Card.Text>
-                    This is a wider card with supporting text below as a natural lead-in
-                    to additional content. This content is a little bit longer.
-                    </Card.Text>
-                    <Card.Text>Last updated 3 mins ago</Card.Text>
+                    <div className='product-name'>
+                        <h1 className='product-name-h1'>{details.product_name}</h1>
+                    </div>
                 </Card.ImgOverlay>
+                <Card.Img src={details.src} alt="Card image" className='img-kartu'/>
                 </Card>
                 </a>
             </div>
