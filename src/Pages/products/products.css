@@ -22,6 +22,7 @@
     height: 100%;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
 }
 
@@ -48,14 +49,6 @@
     margin-top: 150px;
 }
 
-.img-duke {
-    width: 100%;
-
-    z-index: 0;
-
-    position: relative;
-}
-
 .duke-790 {
     font-size: 250px;
     color: #FF6600;
@@ -64,6 +57,14 @@
     z-index: -1;
 
     position: absolute;
+}
+
+.img-duke {
+    width: 100%;
+
+    z-index: 0;
+
+    position: relative;
 }
 
 .duke-head {
@@ -76,6 +77,36 @@
     color: white;
 
     margin-top: 50px;
+}
+
+.duke-subtext-2 {
+    font-family: 'Teko', sans-serif;
+    color: white;
+
+    margin-top: 50px;
+    margin-inline: 50px;
+
+    width: 600px;
+}
+
+.duke-video-text {
+    display: flex;
+
+    height: auto;
+    flex: 1;
+}
+
+.duke-video {
+    width: 100%;
+
+    margin-right: 50px;
+}
+
+.duke-video-box {
+    display: flex;
+
+    height: auto;
+    flex: 2;
 }
 
 @keyframes fadeRight {
@@ -115,6 +146,18 @@
         flex: 100%;
 
         margin-top: 50px;
+    }
+    .duke-video-text {
+        flex: 100%;
+    }
+    .duke-video-box {
+        flex: 100%;
+    }
+    .duke-video {
+        width: 100vw;
+
+        margin-top: 50px;
+        margin-right: 0px;
     }
     .crsl {
         margin-top: 80px;

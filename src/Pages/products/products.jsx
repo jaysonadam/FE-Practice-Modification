@@ -104,9 +104,6 @@ function Products() {
   return (
 
     <>
-      {/* <video loop playsinline autoPlay className='duke-video'>
-        <source src={DUKERIDER} type="video/mp4"/>
-      </video> */}
       <div className='products-head'>
         <h1 className='products-title'>Duke</h1>
       </div>
@@ -121,7 +118,18 @@ function Products() {
             <h3 className='duke-subtext'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ea assumenda aliquam, cum corrupti quas inventore architecto quos, voluptatem debitis autem eos officiis accusamus? Consequuntur ipsa, aspernatur temporibus nisi reprehenderit dicta voluptates tenetur fugiat? Delectus laborum corporis quos ipsum reprehenderit?</h3>
           </div>
         </div>
-      </div>
+        </div>
+        <div className='baris'>
+          <div className='duke-video-text'>
+              <h3 className='duke-subtext-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ab itaque totam quasi dolore asperiores nemo repellendus officia molestias facere! Sunt consequatur quibusdam aliquid commodi sit molestiae facilis incidunt dolore.</h3>
+          </div>
+          <div className='duke-video-box'>
+            <video loop playsinline autoPlay className='duke-video'>
+              <source src={DUKERIDER} type="video/mp4"/>
+            </video>
+          </div>
+        </div>
+
 
       <div className='d-flex justify-content-center crsl'>
         <Carousel partialVisible={true} responsive={responsive} swipeable={true} draggable={true} infinite={true} className='car'>
