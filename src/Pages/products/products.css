@@ -172,7 +172,24 @@
 }
 
 @media (max-width: 900px) {
-    .crsl {
-        margin-top: 50px;
+    .duke {
+        margin-inline: 0px;
+    }
+    .duke-790 {
+        font-size: 200px;
+    }
+}
+
+@media (max-width: 700px) {
+    .duke {
+        margin-inline: 20px;
+    }
+    .duke-790 {
+        font-size: 100px;
+    }
+    .duke-video-text {
+        flex: 100%;
+
+        width: 100%;
     }
 }
