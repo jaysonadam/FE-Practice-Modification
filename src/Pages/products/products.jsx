@@ -104,43 +104,21 @@ function Products() {
   return (
 
     <>
-      <div className='duke'>
-        {/* <div className='box-wrapper'> */}
-              {/* <div className='d-flex flex-column'>
-                <div className='duke-box-text'>
-                  <h1 className='duke-text'>Duke</h1>
-                  <h3 className='duke-text-h3'>Get naked</h3>
-                  <h3 className='duke-text-h3'>Feel the torque</h3>
-                  <h3 className='duke-text-h3'>Ready to Race</h3>
-                </div>
-                <div className='duke-box-subtext'>
-                  <div className='d-flex flex-column'>
-                    <h1 className='duke-text-b'>World's best naked bike</h1>
-                    <h3 className='duke-text-h3-b'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quod. Officiis delectus at ullam nulla voluptatem aperiam, suscipit nihil, dolor eos omnis quos perspiciatis vitae sapiente molestias dicta! Laudantium, repudiandae eos. Harum illum officia eligendi, ad vel cum laboriosam aliquid?</h3>
-                  </div>
-                </div>
-              </div> */}
-        {/* </div> */}
-        <div className='d-flex justify-content-center'>
-          <div className='duke-box'>
-            <h1 className='duke-text'>DUKE</h1>
-            {/* <div className='duke-subtext'>
-              <h3 className='duke-text-h3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda exercitationem suscipit dicta qui aut consectetur saepe! Doloribus earum inventore vero!</h3>
-            </div> */}
-            <div className='duke-subtext'>
-              <h3 className='duke-text-h3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos amet consectetur, unde quas nihil illo fugit velit cum inventore veritatis.</h3>
-              <video loop playsinline autoPlay className='duke-video'>
-                <source src={DUKERIDER} type="video/mp4"/>
-              </video>
-            </div>
-            <div className='duke-subtext-2'>
-              <img src={require("../../Images-Videos/images/duke/duke200-2.png")} className='duke-img'/>
-              <h3 className='duke-text-h3-2'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, perferendis.</h3>
-            </div>
-            <div className='duke-subtext'>
-              <h3 className='duke-text-h3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod iusto cupiditate minus. Ab dicta tempora dolore, nobis porro maiores soluta, laboriosam quisquam perferendis quos explicabo, odio sequi culpa iusto doloribus!</h3>
-              <img src={require("../../Images-Videos/images/duke/duke790-6.jpg")} className='duke-img'/>
-            </div>
+      {/* <video loop playsinline autoPlay className='duke-video'>
+        <source src={DUKERIDER} type="video/mp4"/>
+      </video> */}
+      <div className='products-head'>
+        <h1 className='products-title'>Duke</h1>
+      </div>
+      <div className='baris'>
+        <div className='duke'>
+          <img src={require("../../Images-Videos/images/duke/duke790-1.png")} className='img-duke'/>
+          <h1 className='duke-790'>DUKE 790</h1>
+        </div>
+        <div className='duke-2'>
+          <div className='d-flex flex-column mx-5'>
+            <h1 className='duke-head'>World's best naked bike</h1>
+            <h3 className='duke-subtext'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ea assumenda aliquam, cum corrupti quas inventore architecto quos, voluptatem debitis autem eos officiis accusamus? Consequuntur ipsa, aspernatur temporibus nisi reprehenderit dicta voluptates tenetur fugiat? Delectus laborum corporis quos ipsum reprehenderit?</h3>
           </div>
         </div>
       </div>
@@ -152,25 +130,6 @@ function Products() {
           })}
         </Carousel>
       </div>
-      {/* <div className='product-catalogue'>
-        <h1 className='product-head'>Duke</h1>
-        {duke.map((d) => {
-          return <ProductsCard details={d}/>
-        })}
-      </div>
-
-      <div className='product-catalogue'>
-        <h1 className='product-head'>RC</h1>
-        <Carousel touch='true' interval={4000}>
-          {duke.map((dukes) => {
-
-            return <Carousel.Item id="item">
-              <ProductsCard details={dukes}/>
-            </Carousel.Item>
-
-          })}
-        </Carousel>
-      </div> */}
     </>
 
   )
