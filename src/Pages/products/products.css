@@ -11,7 +11,7 @@
 }
 
 .products-title {
-    color: black;
+    color: rgb(24, 24, 24);
     font-size: 100px;
     
     margin: 0;
@@ -91,6 +91,7 @@
 
 .duke-video-text {
     display: flex;
+    align-items: center;
 
     height: auto;
     flex: 1;

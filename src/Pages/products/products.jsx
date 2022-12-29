@@ -1,7 +1,7 @@
 import React from 'react';
+import { useInView } from 'react-intersection-observer';
 
 import './products.css';
-// import { Carousel } from 'react-bootstrap';
 import DUKERIDER from '../../Images-Videos/videos/DUKERIDER.mp4';
 import ProductsCard from '../../Components/ProductsCard/card';
 
@@ -100,6 +100,7 @@ const responsive = {
 };
 
 function Products() {
+  const { ref: myRef, inView: isVisible } = useInView();
 
   return (
 
