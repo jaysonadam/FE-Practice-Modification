@@ -6,6 +6,11 @@
     height: 100%;
 }
 
+.welcome {
+    font-size: 100px;
+    color: #FF6600;
+}
+
 .bg-home {
     width: 100vw;
     height: 100%;
@@ -64,7 +69,7 @@
 }
 
 .sub {
-    color: #FF6600;
+    color: black;
 }
 
 .text-390 {
@@ -167,6 +172,10 @@
 @media (max-width: 1300px) {
     .bg-home {
         opacity: 0.7;
+    }
+
+    .welcome {
+        font-size: 50px;
     }
 
     .bg-390 {
