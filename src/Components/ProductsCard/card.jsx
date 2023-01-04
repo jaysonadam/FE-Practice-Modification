@@ -13,7 +13,7 @@ function ProductsCard(props) {
                 {/* {gambar.map((images) => {
                     return <img src={images.src}/>
                 })} */}
-                <a href='/profile' className='a-card'>
+                <a href={`/duke/${details.id}`} className='a-card'>
                 <Card className="text-white products-card">
                 <Card.ImgOverlay>
                     <div className='product-name'>

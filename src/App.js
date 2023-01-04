@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Home from "./Pages/home/home";
+import Duke from "./Pages/duke/duke";
 import Riders from "./Pages/riders/riders";
 import Profile from "./Pages/profile/profile";
 import Products from "./Pages/products/products";
@@ -15,6 +16,7 @@ function App() {
             <Navigation />
             <Routes>
                 <Route path='/' element={<Home />}/>
+                <Route path='/duke/:id' element={<Duke />}/>
                 <Route path='/profile' element={<Profile />}/>
                 <Route path='/riders/:id' element={<Riders />}/>
                 <Route path='/products' element={<Products />}/>
