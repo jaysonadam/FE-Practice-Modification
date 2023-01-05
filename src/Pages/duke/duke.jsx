@@ -93,11 +93,12 @@ function Duke() {
 
   return (
     <>
-    <div>Duke {id}</div>
+    <h1 className='product-name'>Duke {id}</h1>
     <div>
       {duke.filter(dukes => dukes.id == id).map(filtered => (
         <div>
           <img src={filtered.src} className='duke-img'/>
+          <div className='trapezoid'></div>
             <>
               <Carousel partialVisible={true} responsive={responsive} swipeable={true} draggable={true} infinite={true} autoPlay={true} autoPlaySpeed={4000} className='my-5'>
               {filtered.images.map((image) => {
@@ -107,7 +108,7 @@ function Duke() {
                 })}
               </Carousel>
             </>
-            <h1>Price: Rp. {filtered.price.toLocaleString('id-ID')}</h1>
+            <h1 className='price'>Price: Rp. {filtered.price.toLocaleString('id-ID')}</h1>
         </div>
       ))}
     </div>

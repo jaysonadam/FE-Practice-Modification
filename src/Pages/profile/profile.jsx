@@ -120,7 +120,7 @@ function Profile() {
       <Carousel touch='true' interval={4000}>
         {slideImages.map((slide) => {
 
-          return <Carousel.Item id="item">
+          return <Carousel.Item>
             <img src={slide.src} className="ima" />
           </Carousel.Item>
 

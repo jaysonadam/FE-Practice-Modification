@@ -1,5 +1,38 @@
+.product-name {
+    font-size: 200px;
+    color: #FF6600;
+}
+
+.trapezoid {
+	border-bottom: 500px solid white;
+	border-left: 300px solid transparent;
+	/* border-right: 25px solid transparent; */
+	height: 0;
+	width: 80vw;
+
+    margin-left: 20vw;
+
+    z-index: 0;
+    position: relative;
+}
+
 .duke-img {
-    width: 50%;
+    height: 500px;
+
+    z-index: -1;
+    position: absolute;
+
+    animation-duration: 2000ms;
+    animation-name: fadeLeft;
+}
+
+@keyframes fadeLeft {
+    from {
+        transform: translateX(100%); 
+    }
+    to {
+        transform: translateX(0%);
+    }
 }
 
 .car-div {
