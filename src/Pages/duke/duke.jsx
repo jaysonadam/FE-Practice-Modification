@@ -9,7 +9,7 @@ const duke = [
     {
       id: 125,
       product_name: 'DUKE 125',
-      price: 53600000,
+      price: 43600000,
       product_desc: `The KTM 125 DUKE may be the entry-level bike of the range, but it isn't here to play games. It's built with the same attitude as the bigger bikes - and it shows. It's no holds barred with this urban warrior, complete with an LED headlight and TFT display. This 4-stroke single cylinder has fuel-injection and a 6-speed transmission to deliver class-leading performance with low fuel consumption to keep you riding longer. `,
       src: require("../../Images-Videos/images/duke/My project-1.png"),
       images: [ 
@@ -23,7 +23,7 @@ const duke = [
       id: 200,
       product_name: 'DUKE 200',
       price: 53600000,
-      product_desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nulla doloribus, libero explicabo delectus minus distinctio earum cumque ullam, omnis suscipit animi sapiente magnam quos debitis possimus repellendus nostrum deleniti veniam magni vitae nesciunt eligendi! Accusantium dolorum eaque tempora, voluptates quo ipsum esse deleniti distinctio nisi officiis vero expedita sit quam quas dolor voluptatem, ipsam itaque laborum nam modi aspernatur!',
+      product_desc: `Thanks to an ultra-compact single-cylinder 4-stroke power plant and a lightweight tubular chassis, the KTM 200 DUKE packs a mighty punch. An updated predatory design proudly displays its BEAST-inspired DNA and shouts DUKE. Make no mistake – the KTM 200 DUKE is an out-and-out street prowling brawler.`,
       src: require("../../Images-Videos/images/duke/duke200-1.png"),
       images: [ 
       { src: require("../../Images-Videos/images/duke/duke200-1.png") },
@@ -34,8 +34,8 @@ const duke = [
     {
       id: 250,
       product_name: 'DUKE 250',
-      price: 53600000,
-      product_desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nulla doloribus, libero explicabo delectus minus distinctio earum cumque ullam, omnis suscipit animi sapiente magnam quos debitis possimus repellendus nostrum deleniti veniam magni vitae nesciunt eligendi! Accusantium dolorum eaque tempora, voluptates quo ipsum esse deleniti distinctio nisi officiis vero expedita sit quam quas dolor voluptatem, ipsam itaque laborum nam modi aspernatur!',
+      price: 63000000,
+      product_desc: `If chasing thrills is your game then climb aboard the KTM 250 DUKE. It combines maximum riding exhilaration with optimum user value and is hard to beat wherever nimble handling counts. Lightweight, powerful and packed with advanced technology, it promises to deliver a thrilling ride from sunrise to sunset.`,
       src: require("../../Images-Videos/images/duke/duke250-3.png"),
       images: [ 
       { src: require("../../Images-Videos/images/duke/duke250-1.png") },
@@ -47,7 +47,7 @@ const duke = [
     {
       id: 390,
       product_name: 'DUKE 390',
-      price: 53600000,
+      price: 113600000,
       product_desc: `The KTM 790 DUKE is as surgical as its nickname suggests. With the agility, you'd expect from a single, combined with the hard-hitting punch of a twin, the KTM 790 DUKE slices up the road with pinpoint precision. With a 799 cc LC8c parallel twin motor - the most compact in its class - nestled into one of the lightest frames around, the KTM 790 DUKE is all about being fast everywhere, with the corners being its playground.`,
       src: require("../../Images-Videos/images/duke/duke390-1.png"),
       images: [ 
@@ -59,7 +59,7 @@ const duke = [
     {
       id: 790,
       product_name: 'DUKE 790',
-      price: 53600000,
+      price: 310500000,
       product_desc: `The KTM 790 DUKE is as surgical as its nickname suggests. With the agility, you'd expect from a single, combined with the hard-hitting punch of a twin, the KTM 790 DUKE slices up the road with pinpoint precision. With a 799 cc LC8c parallel twin motor - the most compact in its class - nestled into one of the lightest frames around, the KTM 790 DUKE is all about being fast everywhere, with the corners being its playground.`,
       src: require("../../Images-Videos/images/duke/duke790-1.png"),
       images: [ 
@@ -71,7 +71,7 @@ const duke = [
     {
       id: 1290,
       product_name: 'SUPER DUKE',
-      price: 53600000,
+      price: 535000000,
       product_desc: `Sitting at the very top of the hyper-naked food chain, boasting a menacing collection of high-performance chassis and engine specifications, as well as top-shelf rider enhancements and electronics, the KTM 1290 SUPER DUKE R needs no introduction. But we gave it one anyway. Introducing THE BEAST. `,
       src: require("../../Images-Videos/images/duke/superduke-5.png"),
       images: [ 
