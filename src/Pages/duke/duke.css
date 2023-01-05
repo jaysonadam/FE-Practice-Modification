@@ -73,18 +73,6 @@
 }
 
 @media (max-width: 1200px) {
-    .duke-name {
-        font-size: 100px;
-    }
-    .duke-img {
-        height: 400px;
-    }
-    .trapezoid {
-        border-bottom: 400px solid white;
-    }
-}
-
-@media (max-width: 950px) {
     .img-wrapper {
         justify-content: center;
     }
