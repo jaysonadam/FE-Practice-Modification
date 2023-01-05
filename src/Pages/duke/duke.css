@@ -1,22 +1,24 @@
-.product-name {
+.duke-name {
     font-size: 200px;
     color: #FF6600;
 }
 
 .trapezoid {
 	border-bottom: 500px solid white;
-	border-left: 300px solid transparent;
+	border-left: 400px solid transparent;
 	/* border-right: 25px solid transparent; */
 	height: 0;
-	width: 80vw;
+	width: 90vw;
 
-    margin-left: 20vw;
+    margin-left: 10vw;
 
     z-index: 0;
     position: relative;
 }
 
 .duke-img {
+    /* margin-left: 0px; */
+    margin-top: 20px;
     height: 500px;
 
     z-index: -1;
@@ -24,6 +26,15 @@
 
     animation-duration: 2000ms;
     animation-name: fadeLeft;
+}
+
+.desc {
+    margin-right: 50px;
+}
+
+.price {
+    font-size: 70px;
+    color: #FF6600;
 }
 
 @keyframes fadeLeft {
