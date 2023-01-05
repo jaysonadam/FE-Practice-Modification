@@ -109,11 +109,15 @@ function Duke() {
     <div>
       {duke.filter(dukes => dukes.id == id).map(filtered => (
         <div>
-          <img src={filtered.src} className='duke-img'/>
+          <div className='img-wrapper'>
+            <img src={filtered.src} className='duke-img'/>
+          </div>
           <div className='trapezoid'>
-            <h1 className='duke-name'>Duke {id}</h1>
-            <div className='d-flex h-100 align-content-center'>
-              <h3 className='desc'>{filtered.product_desc}</h3>
+            <div className='white-bg'>
+              <h1 className='duke-name'>Duke {id}</h1>
+              <div className='d-flex h-100 align-content-center'>
+                <h3 className='desc'>{filtered.product_desc}</h3>
+              </div>
             </div>
           </div>
           <div className='d-flex justify-content-center mt-5'>
