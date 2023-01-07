@@ -11,6 +11,16 @@ const duke = [
       product_name: 'DUKE 125',
       price: 43600000,
       product_desc: `The KTM 125 DUKE may be the entry-level bike of the range, but it isn't here to play games. It's built with the same attitude as the bigger bikes - and it shows. It's no holds barred with this urban warrior, complete with an LED headlight and TFT display. This 4-stroke single cylinder has fuel-injection and a 6-speed transmission to deliver class-leading performance with low fuel consumption to keep you riding longer. `,
+      spec: [
+        { title: 'Power & Torque',
+          desc: 'A bike as compact and nimble as this one, deserves to pack a solid punch. With 11 kW (15 hp) it is right for entry level enthusiasts. Thanks to the ingenious intake and exhaust system, the 33 mm throttle body and the meticulous fuel injection system, this strong stroker is ready to leave the rest of the city traffic behind at the twist of your wrist.' },
+        { title: 'Engine',
+          desc: 'The KTM 125 DUKE engine not only delivers arm-wrenching torque and hair-raising acceleration, but also good manners in everyday use, all with outstanding fuel economy. This lightweight, compact engine packs a good punch too, with a respectable 11 kW (15 hp). Thanks to the ingenious intake design and the meticulous fuel injection system, the KTM 125 DUKE is ready and waiting to tear-up the streets and the circuits alike.' },
+        { title: 'Exhaust',
+          desc: 'The KTM 125 DUKE’s lightweight and precision-crafted exhaust system comprises of a side exhaust, link pipe and silencer. The three-chamber silencer has been positioned close to the bike’s overall center of gravity, improving balance and handling, whilst also delivering smooth, instant and beast-like power. Oh, and it looks angry as hell too.' },
+        { title: 'Injection',
+          desc: 'Just like the KTM 1290 SUPER DUKE R, the four valves in the cylinder head of the KTM 125 DUKE are actuated by two overhead camshafts and ultra-hard, carbon coated cam followers. The result is an ultra-reliable, long-lasting engine that produces next-level power.' }
+      ],
       src: require("../../Images-Videos/images/duke/My project-1.png"),
       images: [ 
       { src: require("../../Images-Videos/images/duke/duke125-1.png") },
@@ -132,6 +142,19 @@ function Duke() {
                 })}
               </Carousel>
             </>
+
+            <div>
+              <Carousel partialVisible={true} responsive={responsive} swipeable={true} draggable={true} infinite={true} autoPlay={true} autoPlaySpeed={7000} className='my-5 car-spec'>
+                {filtered.spec.map((specs) => {
+                  return <div className='spec'>
+                    <div className='d-flex flex-column px-5'>
+                      <h1>{specs.title}</h1>
+                      <h4>{specs.desc}</h4>
+                    </div>
+                  </div>
+                })}
+              </Carousel>
+            </div>
         </div>
       ))}
     </div>

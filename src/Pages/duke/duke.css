@@ -72,6 +72,18 @@
     margin-bottom: 50px;
 }
 
+.car-spec {
+    height: 300px;
+}
+
+.spec {
+    background-color: #FF6600;
+    height: 300px;
+    
+    display: flex;
+    align-items: center;
+}
+
 @media (max-width: 1200px) {
     .img-wrapper {
         justify-content: center;
@@ -101,6 +113,9 @@
         width: auto;
         height: 250px;
     }
+    .duke-name {
+        font-size: 100px;
+    }
     .car-div {
         width: 100%;
         height: 400px;
@@ -116,6 +131,15 @@
     .react-multi-carousel-list {
         width: 100%;
         height: 300px;
+    }
+}
+
+@media (max-width: 600px) {
+    .car-spec {
+        height: 500px;
+    }
+    .spec {
+        height: 500px;
     }
 }
 
