@@ -84,6 +84,19 @@
     align-items: center;
 }
 
+.table-title {
+    display: flex;
+    justify-content: center;
+
+    color: #FF6600;
+
+    margin-top: 60px;
+}
+
+.th {
+    color: #FF6600;
+}
+
 @media (max-width: 1200px) {
     .img-wrapper {
         justify-content: center;

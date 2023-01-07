@@ -2,6 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 
 import './duke.css';
+import Table from 'react-bootstrap/Table';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
@@ -11,6 +12,7 @@ const duke = [
       product_name: 'DUKE 125',
       price: 43600000,
       product_desc: `The KTM 125 DUKE may be the entry-level bike of the range, but it isn't here to play games. It's built with the same attitude as the bigger bikes - and it shows. It's no holds barred with this urban warrior, complete with an LED headlight and TFT display. This 4-stroke single cylinder has fuel-injection and a 6-speed transmission to deliver class-leading performance with low fuel consumption to keep you riding longer. `,
+      
       spec: [
         { title: 'Power & Torque',
           desc: 'A bike as compact and nimble as this one, deserves to pack a solid punch. With 11 kW (15 hp) it is right for entry level enthusiasts. Thanks to the ingenious intake and exhaust system, the 33 mm throttle body and the meticulous fuel injection system, this strong stroker is ready to leave the rest of the city traffic behind at the twist of your wrist.' },
@@ -21,6 +23,52 @@ const duke = [
         { title: 'Injection',
           desc: 'Just like the KTM 1290 SUPER DUKE R, the four valves in the cylinder head of the KTM 125 DUKE are actuated by two overhead camshafts and ultra-hard, carbon coated cam followers. The result is an ultra-reliable, long-lasting engine that produces next-level power.' }
       ],
+
+      engine: [
+        { title: 'Torque',
+          value: '12Nm'
+        },
+        { title: 'Transmission',
+          value: '6-Speed'
+        },
+        { title: 'Design',
+          value: '1-cylinder, 4-stroke engine'
+        },
+        { title: 'Stroke',
+          value: '47.2 mm'
+        },
+        { title: 'Bore',
+          value: '58 mm'
+        },
+      ],
+
+      chassis: [
+        { title: 'Dry weight',
+          value: '141 KG'
+        },
+        { title: 'Front suspension',
+          value: 'WP-USD, AER 43, Ø 43 mm'
+        },
+        { title: 'Tank capacity',
+          value: '11 L'
+        },
+        { title: 'Front brake disc diameter',
+          value: '300 mm'
+        },
+        { title: 'Rear brake disc diameter',
+          value: '230 mm'
+        },
+        { title: 'Front brake',
+          value: 'Four-piston radial fixed calliper, brake disc'
+        },
+        { title: 'Rear brake',
+          value: 'Single-piston floating calliper, brake disc'
+        },
+        { title: 'Steering head angle',
+          value: '65 °'
+        }
+      ],
+
       src: require("../../Images-Videos/images/duke/My project-1.png"),
       images: [ 
       { src: require("../../Images-Videos/images/duke/duke125-1.png") },
@@ -154,6 +202,46 @@ function Duke() {
                   </div>
                 })}
               </Carousel>
+            </div>
+
+            <div>
+              <h1 className='table-title'>Engine</h1>
+              <Table bordered hover variant="dark">
+                <thead>
+                  <tr>
+                    <th className='th'>Name</th>
+                    <th className='th'>Value</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {filtered.engine.map((eng) => {
+                    return <tr>
+                      <td>{eng.title}</td>
+                      <td>{eng.value}</td>
+                    </tr>
+                  })}
+                </tbody>
+              </Table>
+            </div>
+
+            <div>
+              <h1 className='table-title'>Chassis</h1>
+              <Table bordered hover variant="dark">
+                <thead>
+                  <tr>
+                    <th className='th'>Name</th>
+                    <th className='th'>Value</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {filtered.chassis.map((eng) => {
+                    return <tr>
+                      <td>{eng.title}</td>
+                      <td>{eng.value}</td>
+                    </tr>
+                  })}
+                </tbody>
+              </Table>
             </div>
         </div>
       ))}
