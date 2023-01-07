@@ -26,7 +26,7 @@ const duke = [
 
       engine: [
         { title: 'Torque',
-          value: '12Nm'
+          value: '12 Nm'
         },
         { title: 'Transmission',
           value: '6-Speed'
@@ -82,6 +82,61 @@ const duke = [
       product_name: 'DUKE 200',
       price: 53600000,
       product_desc: `Thanks to an ultra-compact single-cylinder 4-stroke power plant and a lightweight tubular chassis, the KTM 200 DUKE packs a mighty punch. An updated predatory design proudly displays its BEAST-inspired DNA and shouts DUKE. Make no mistake – the KTM 200 DUKE is an out-and-out street prowling brawler.`,
+
+      spec: [
+        { title: 'Engine',
+          desc: `Powered by a powerful single-cylinder engine, the KTM 200 DUKE not only delivers intoxicating acceleration but also everyday rideability. Boasting 19 kW (26 hp), it's the most powerful 4-stroke option in its class. Thanks to an updated airbox and exhaust, it meets the highest emission and noise standards, while providing maximum performance.` },
+        { title: 'Exhaust',
+          desc: 'The KTM 200 DUKE boasts a new, improved and compact exhaust system, engineered to meet the highest emission and noise standards, while providing maximum performance.' },
+        { title: 'Injection',
+          desc: 'The intricate engine design, state-of-the-art injection electronics and close-ratio, 6-speed transmission not only help the KTM 200 DUKE to achieve white-knuckle performance, but also extremely low fuel consumption. At the same time, thanks to the regulated catalytic converter, it produces minimal emissions, even when riding at full throttle.' }
+      ],
+
+      engine: [
+        { title: 'Torque',
+          value: '19.5 Nm'
+        },
+        { title: 'Transmission',
+          value: '6-Speed'
+        },
+        { title: 'Design',
+          value: '1-cylinder, 4-stroke engine'
+        },
+        { title: 'Stroke',
+          value: '49 mm'
+        },
+        { title: 'Bore',
+          value: '72 mm'
+        },
+      ],
+
+      chassis: [
+        { title: 'Dry weight',
+          value: '140 KG'
+        },
+        { title: 'Front suspension',
+          value: 'WP-USD, AER 43, Ø 43 mm'
+        },
+        { title: 'Tank capacity',
+          value: '13.5 L'
+        },
+        { title: 'Front brake disc diameter',
+          value: '300 mm'
+        },
+        { title: 'Rear brake disc diameter',
+          value: '230 mm'
+        },
+        { title: 'Front brake',
+          value: 'Four-piston radial fixed calliper, brake disc'
+        },
+        { title: 'Rear brake',
+          value: 'Single-piston floating calliper, brake disc'
+        },
+        { title: 'Steering head angle',
+          value: '65 °'
+        }
+      ],
+
       src: require("../../Images-Videos/images/duke/duke200-1.png"),
       images: [ 
       { src: require("../../Images-Videos/images/duke/duke200-1.png") },
@@ -94,6 +149,65 @@ const duke = [
       product_name: 'DUKE 250',
       price: 63000000,
       product_desc: `If chasing thrills is your game then climb aboard the KTM 250 DUKE. It combines maximum riding exhilaration with optimum user value and is hard to beat wherever nimble handling counts. Lightweight, powerful and packed with advanced technology, it promises to deliver a thrilling ride from sunrise to sunset.`,
+
+      spec: [
+        { title: 'Power & Torque',
+          desc: `A bike as compact and nimble as this one deserves to pack a solid punch. With 22 kW (30 hp) for an extremely lightweight craftsmanship, it does just that. Thanks to the ingenious intake and exhaust system, the 38 mm throttle body and the meticulous fuel injection system, this strong stroker is ready to leave the rest of the city traffic behind at the twist of your wrist.`
+        },
+        { title: 'Engine',
+          desc: `The latest materials and production technologies not only deliver the bike's bountiful torque and punchy acceleration, but also good manners in everyday use and outstanding fuel economy. A bike as compact and nimble as this one deserves to pack a solid punch. With 22 kW (30 hp) for an extremely lightweight craftsmanship, it does just that. Thanks to the ingenious intake and exhaust system, the 38 mm throttle body and the meticulous fuel injection system, this strong stroker is ready to leave the rest of the city traffic behind at the twist of your wrist. ` },
+        { title: 'Exhaust',
+          desc: 'The KTM 250 DUKE’s lightweight and precision-crafted exhaust system comprises of a side exhaust, link pipe and silencer. The three-chamber silencer has been positioned close to the bike’s overall center of gravity, improving balance and handling, whilst also delivering smooth, instant and beast-like power. Oh, and it looks angry as hell too.' }
+      ],
+
+      engine: [
+        { title: 'Torque',
+          value: '24 Nm'
+        },
+        { title: 'Transmission',
+          value: '6-Speed'
+        },
+        { title: 'Design',
+          value: '1-cylinder, 4-stroke engine'
+        },
+        { title: 'Stroke',
+          value: '61.1 mm'
+        },
+        { title: 'Bore',
+          value: '72 mm'
+        },
+      ],
+
+      chassis: [
+        { title: 'Dry weight',
+          value: '169 KG'
+        },
+        { title: 'Front suspension',
+          value: 'WP upside-down Ø 43 mm'
+        },
+        { title: 'Tank capacity',
+          value: '13.4 L'
+        },
+        { title: 'ABS',
+          value: 'Bosch 9.1MB Two Channel ABS'
+        },
+        { title: 'Front brake disc diameter',
+          value: '300 mm'
+        },
+        { title: 'Rear brake disc diameter',
+          value: '230 mm'
+        },
+        { title: 'Front brake',
+          value: 'Four-piston radial fixed calliper, brake disc'
+        },
+        { title: 'Rear brake',
+          value: 'Single-piston floating calliper, brake disc'
+        },
+        { title: 'Steering head angle',
+          value: '65 °'
+        }
+      ],
+
       src: require("../../Images-Videos/images/duke/duke250-3.png"),
       images: [ 
       { src: require("../../Images-Videos/images/duke/duke250-1.png") },
@@ -107,6 +221,69 @@ const duke = [
       product_name: 'DUKE 390',
       price: 113600000,
       product_desc: `The KTM 790 DUKE is as surgical as its nickname suggests. With the agility, you'd expect from a single, combined with the hard-hitting punch of a twin, the KTM 790 DUKE slices up the road with pinpoint precision. With a 799 cc LC8c parallel twin motor - the most compact in its class - nestled into one of the lightest frames around, the KTM 790 DUKE is all about being fast everywhere, with the corners being its playground.`,
+
+      spec: [
+        { title: 'Power & Torque',
+          desc: `A bike as compact and nimble as this one, deserves to pack a solid punch. With 32 kW (43,5 hp) and a dry weight of just 167 kg, we did it justice. Thanks to the ingenious intake and exhaust system, the 46 mm throttle body and the meticulous fuel injection system, this strong stroker is ready to leave the rest of the traffic behind at the twist of your wrist.` },
+        { title: 'Engine',
+          desc: `The latest materials and production technologies not only deliver the bike's bountiful torque and punchy acceleration, but also good manners in everyday use and outstanding fuel economy. A bike as compact and nimble as this one deserves to pack a solid punch. With 32 kW (43,5 hp) for an extremely lightweight craftsmanship, it does just that. Thanks to the ingenious intake and exhaust system, the 46 mm throttle body and the meticulous fuel injection system, this strong stroker is ready to leave the rest of the city traffic behind at the twist of your wrist.` },
+        { title: 'Exhaust',
+          desc: 'The KTM 390 DUKE’s lightweight and precision-crafted exhaust system comprises of a side exhaust, link pipe and silencer. The three-chamber silencer has been positioned close to the bike’s overall center of gravity, improving balance and handling, whilst also delivering smooth, instant and beast-like power. Oh, and it looks angry as hell too.' },
+        { title: 'Injection',
+          desc: 'The intricate engine design, state-of-the-art injection electronics and close-ratio, 6-speed transmission not only help the KTM 390 DUKE to achieve white-knuckle performance, but also extremely low fuel consumption. At the same time, thanks to the regulated catalytic converter, it produces minimal emissions, even when riding at full throttle.' }
+      ],
+
+      engine: [
+        { title: 'Torque',
+          value: '37 Nm'
+        },
+        { title: 'Transmission',
+          value: '6-Speed'
+        },
+        { title: 'Design',
+          value: '1-cylinder, 4-stroke engine'
+        },
+        { title: 'Stroke',
+          value: '60 mm'
+        },
+        { title: 'Bore',
+          value: '89 mm'
+        },
+      ],
+
+      chassis: [
+        { title: 'Dry weight',
+          value: '167 KG'
+        },
+        { title: 'Front suspension',
+          value: 'WP APEX 43'
+        },
+        { title: 'Rear suspension',
+          value: 'WP APEX - Monoshock'
+        },
+        { title: 'ABS',
+          value: 'Bosch 9.1MP Two Channel ABS (Supermoto ABS)'
+        },
+        { title: 'Tank capacity',
+          value: '13.4 L'
+        },
+        { title: 'Front brake disc diameter',
+          value: '300 mm'
+        },
+        { title: 'Rear brake disc diameter',
+          value: '230 mm'
+        },
+        { title: 'Front brake',
+          value: 'Four-piston radial fixed calliper, brake disc'
+        },
+        { title: 'Rear brake',
+          value: 'Single-piston floating calliper, brake disc'
+        },
+        { title: 'Steering head angle',
+          value: '65 °'
+        }
+      ],
+
       src: require("../../Images-Videos/images/duke/duke390-1.png"),
       images: [ 
       { src: require("../../Images-Videos/images/duke/duke390-1.png") },
